@@ -1,0 +1,48 @@
+.site {
+	display: grid;
+	grid-template-columns: ($size__site-sidebar) auto;
+	grid-template-areas:
+		"header header"
+		"sidebar main"
+		"footer footer";
+}
+
+.site-header {
+	grid-area: header;
+}
+
+.site-main {
+	grid-area: main;
+	overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+}
+
+.widget-area {
+	grid-area: sidebar;
+	margin: 25px;
+	padding: 0 5px;
+}
+
+.site-footer {
+	grid-area: footer;
+}
+
+.widget_search  {
+	.search-field {
+		width: 100%;
+		font-size: 0.9rem;
+		line-height: 1.8rem;
+		margin-bottom: 5px;
+	}
+	.search-submit {
+		width: 100%
+	}
+}
+
+@media screen and (max-width: 650px) {
+	aside  {
+		display: block;
+	}
+}
+
+
+@import "no-sidebar";

@@ -1,0 +1,152 @@
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+
+	ul {
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+		ul {
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			float: left;
+			position: absolute;
+			top: 1.5em;
+			left: -999em;
+			z-index: 99999;
+
+			ul {
+				left: -999em;
+				top: 0;
+			}
+
+			li {
+				&:hover > ul,
+				&.focus > ul {
+					left: 100%;
+				}
+			}
+
+			a {
+				// width: 100%;
+			}
+
+			:hover > a,
+			.focus > a {
+			}
+
+			a:hover,
+			a.focus {
+			}
+		}
+
+		li:hover > ul,
+		li.focus > ul {
+			left: auto;
+		}
+	}
+
+	li {
+		float: left;
+		position: relative;
+
+		&:hover > a,
+		&.focus > a {
+		}
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a,
+	.current-menu-ancestor > a {
+	}
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 650px) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}
+
+
+	.nav-links{
+		.nav-previous{
+		margin-left: 20px;
+		}
+
+		.nav-next{
+			margin-right: 20px;
+		}
+
+		.nav-previous, .nav-next{
+		// padding:10px 20px;
+		background-color: $color__primary;
+		width: 190px;
+		// height: 30px;
+		max-width: 40%;
+		font-size: 1em;
+		line-height: 1.3em;
+			
+			&:hover {
+				background-color: $color__background-button-hover;
+			}
+
+			// Convertir links en botones
+			a {
+				display:block; 
+				padding: 12px 20px;
+				color: $color__font-button;
+				
+				&:hover, &:active, &:focus {
+					text-decoration: none;
+				}
+			}
+				
+		}
+        
+        .post-prev-container, .post-next-container{
+		white-space:nowrap;
+		text-overflow: ellipsis ;
+		width: 100%;
+		display: block;
+		overflow: hidden;
+		}
+	}

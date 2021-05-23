@@ -1,0 +1,69 @@
+.sticky {
+	display: block;
+}
+
+.post,
+.page {
+	margin: 0 0px 3.5em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+
+.comments-link a {
+	margin-left: 20px;
+}
+
+.edit-link a {
+	margin-left: 20px;
+}
+
+.entry-title {
+	text-align: center;
+}
+
+.entry-footer {
+	color: $color__text-input;
+	font-size: 0.9rem;
+	
+	a:hover {
+		color: $color__primary;
+	}
+
+}
+.entry-meta {
+	color: $color__text-input;
+	font-size: 0.9rem;
+	a {
+		font-size: 0.9rem;
+
+	}
+
+	a:hover {
+		color: $color__primary;
+	}
+}
+
+.post-thumbnail img {
+	margin-top: 15px;
+
+}
+
+
+.wp-caption {
+	width: 100%!important;
+	text-align: center;
+}
