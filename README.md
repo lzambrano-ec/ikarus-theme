@@ -3,4 +3,4 @@
 Ikarus Theme
 ===
 
-This is a Light theme in order to have a fast performance.
+This is a Light theme in order to have a fast performance. Only just download it and compress it to a zip file.
