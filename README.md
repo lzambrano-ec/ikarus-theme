@@ -9,7 +9,7 @@
 
 ## General Info
 ***
-This Wordpress theme created from scratch and was made with the performance of a website in mind, thus the sites that implement it will be really faster.
+This Wordpress theme was created from scratch and made with the performance of a website in mind, thus the sites that implement it will be really faster.
 ## Technologies
 ***
 #### A list of technologies used within this theme:
@@ -24,7 +24,7 @@ This Wordpress theme created from scratch and was made with the performance of a
 This theme is a Underscores based theme by automattic, creators of wordpress.com, Ikarus theme it was created with Sass for the styles, with Gulp I converted automatically this files .scss to one file css named style.css. Also Gulp was useful to get optimized images automatically too. It is used CSS grid to manage the layout in a modern and native way, without installing CSS libraries like bootstrap that could affect negatively the performance of the site.
 
 ## Example of code
-
+***
 #### CSS layout
 ```
 .site {
@@ -41,7 +41,7 @@ This theme is a Underscores based theme by automattic, creators of wordpress.com
 }
 ```
 
-#### PHP and Html code
+#### PHP and Html code used for displaying page content in page.php
 ```
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
@@ -66,10 +66,12 @@ This theme is a Underscores based theme by automattic, creators of wordpress.com
 
 
 ## Score in Pagespeed 
+***
 ###### *Theme installed in website bricolajesoluciones.com without any optimization plugin or cache 
 #### mobile and desktop version respectively 
 ![Image text](https://bricolajesoluciones.com/pagespeed-mobile.png)
 ![Image text](https://bricolajesoluciones.com/pagespeed-desktop.png)
 
 ## Installation
-Only just download it and compress it to a zip file.
+***
+Only just download the zip file and and install it in your wordpress website in appearance --> themes.
