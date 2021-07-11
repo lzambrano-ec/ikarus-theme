@@ -2,10 +2,11 @@
 ===
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Description](#description)
-3. [Example of code](#example-of-code)
-4. [Score in Pagespeed](#score-in-pagespeed)
-5. [Installation](#installation)
+2. [Technologies](#technologies)
+3. [Description](#description)
+4. [Example of code](#example-of-code)
+5. [Score in Pagespeed](#score-in-pagespeed)
+6. [Installation](#installation)
 
 ## General Info
 ***
