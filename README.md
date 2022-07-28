@@ -70,8 +70,8 @@ This theme is a Underscores based theme by automattic, creators of wordpress.com
 ***
 ###### *Theme installed in website bricolajesoluciones.com without any optimization plugin or cache 
 #### mobile and desktop version respectively 
-![Image text](https://bricolajesoluciones.com/pagespeed-mobile.png)
-![Image text](https://bricolajesoluciones.com/pagespeed-desktop.png)
+![Image text](https://ikarus-media.com/images/score-pagespeed-mobile.png)
+![Image text](https://ikarus-media.com/images/score-pagespeed.png)
 
 ## Installation
 ***
